@@ -20,7 +20,7 @@ driver = webdriver.Chrome(service = Service(), options=options)
 base_list_url = "https://ps.opensooq.com/ar/عقارات/شقق-للبيع?page="
 base_site = "https://ps.opensooq.com/"
 
-pages_num = 1
+pages_num = 20
 apts_data = []
 for page in range(1, pages_num + 1):
     print(f"Loading listing page {page}")
